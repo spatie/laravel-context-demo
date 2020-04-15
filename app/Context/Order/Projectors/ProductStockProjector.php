@@ -21,7 +21,6 @@ class ProductStockProjector implements Projector
         ProductDeletedEvent::class => 'onProductDeleted',
         OrderCreatedEvent::class => 'onOrderCreated',
         OrderCancelledEvent::class => 'onOrderCancelled',
-
     ];
 
     public function onProductCreated(ProductCreatedEvent $event): void

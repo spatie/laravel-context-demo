@@ -9,7 +9,7 @@ use App\Context\Order\Events\ProductDeletedEvent;
 use App\Support\Events\EventSubscriber as BaseEventSubscriber;
 use App\Support\Events\SubscribesToEvents;
 
-class EventProductSubscriber implements BaseEventSubscriber
+class ProductEventSubscriber implements BaseEventSubscriber
 {
     use SubscribesToEvents;
 

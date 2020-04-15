@@ -9,7 +9,7 @@ class ProductCreatedEvent extends ShouldBeStored
 {
     public ProductUuid $productUuid;
 
-    public int $capacity;
+    public int $stock;
 
     public function __construct(ProductUuid $productUuid, int $stock)
     {
