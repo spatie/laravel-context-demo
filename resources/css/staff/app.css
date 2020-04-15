@@ -1,0 +1,6 @@
+@charset 'UTF-8';
+
+@import "./bootstrap.css";
+
+@tailwind components;
+@tailwind utilities;
